@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
@@ -21,8 +21,5 @@ let package = Package(
             dependencies: [
             ]
         ),
-        .testTarget(name: "EZSelectionTests", dependencies: [
-            .target(name: "EZSelection"),
-        ])
     ]
 )
